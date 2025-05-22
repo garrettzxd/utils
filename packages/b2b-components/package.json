@@ -1,0 +1,12 @@
+{
+  "name": "@b2b/components",
+  "version": "0.3.0",
+  "description": "for vue components",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "garrettzxd",
+  "license": "ISC"
+}

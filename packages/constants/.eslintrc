@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "../../.eslintrc",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "tsconfigRootDir": "./",
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

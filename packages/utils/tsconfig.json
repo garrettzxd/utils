@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./lib",
+    "paths": {
+      "@b2b/constants/*": ["../constants/*"]
+    }
+  },
+  "includes": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

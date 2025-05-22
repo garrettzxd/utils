@@ -1,0 +1,25 @@
+{
+  "name": "@b2b/constants",
+  "version": "0.3.0",
+  "author": "garrett",
+  "description": "for b2b constants",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "yarn clean && tsc -b",
+    "clean": "rm -rf lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn build"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
+}

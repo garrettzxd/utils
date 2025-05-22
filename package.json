@@ -1,0 +1,29 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "bootstrap": "yarn && lerna bootstrap && yarn workspace @b2b/constants build && yarn workspace @b2b/utils build",
+    "prepare": "husky install",
+    "test": "echo \"this is test\""
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.3.0",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@commitlint/config-lerna-scopes": "^16.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.0",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.4.1",
+    "typescript": "^4.6.3"
+  },
+  "lint-staged": {
+    "*.ts": "eslint"
+  }
+}

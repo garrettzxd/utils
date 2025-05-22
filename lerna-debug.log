@@ -1,0 +1,8 @@
+43 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin master
+43 error remote: GitLab: You are not allowed to push code to protected branches on this project.
+43 error To gitlab.lianlianpay.com:lli-b2b/fe/b2b-packages.git
+43 error  ! [remote rejected] master -> master (pre-receive hook declined)
+43 error  ! [remote rejected] v0.0.4 -> v0.0.4 (pre-receive hook declined)
+43 error error: 无法推送一些引用到 'gitlab.lianlianpay.com:lli-b2b/fe/b2b-packages.git'
+43 error     at makeError (/Users/zhangxd002/code/b2b-packages/node_modules/execa/lib/error.js:60:11)
+43 error     at handlePromise (/Users/zhangxd002/code/b2b-packages/node_modules/execa/index.js:118:26)
